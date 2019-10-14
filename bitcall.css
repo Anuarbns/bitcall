@@ -2,7 +2,6 @@
     #563d7c
     #cbbde2
         color: mediumpurple;
-
 our website colores*/
 body 
 {
@@ -83,6 +82,12 @@ background-color: grey;
     -o-background-size: cover;
     background-size: cover;
 }
+.carousel-indicators .active {
+  background-color: #3d039a;
+}
+
+
+
 .carousel-caption {
     right: 0%;
     width: 100%;
@@ -126,6 +131,20 @@ display: none!important;
 {
     color: #563d7c;
 }
+@media(max-width: 545px)
+{
+  .mycards h2 {
+    font-size: 20px;
+  }
+  .mycards .crds div h3
+  {
+    font-size: 18px;
+  }
+  .mycards .crds p 
+  {
+    font-size: 14px;
+  }
+}
 
 .mycards .crds div
 {
@@ -150,8 +169,7 @@ color: #8d77ad;
 /*contactus section*/
 .contactus
 {
-    background-color: #563d7c;
-    padding: 20px;
+
 }
 .contactus h2
 {
@@ -159,11 +177,18 @@ color: #8d77ad;
     padding-bottom: 20px; 
     margin-bottom: 40px;
 }
+@media(max-width: 545px)
+{
+  .contactus h2 {
+    font-size: 20px;
+  }
 
 .contactus .info div
 {
-    margin-bottom: 45px;
+    margin-bottom: 30px;
     color: rgba(255, 255, 255, 0.849);
+  background-color: #563d7c;
+  padding-top: 15px;
 
 }
 .contactus .info div i
@@ -178,8 +203,8 @@ color: #8d77ad;
 
 .contactus .cntbt .btn
 {
-    background: #fff;
-    color: #563d7c;
+    background: #563d7c;
+    color: #fff;
     border-color: #563d7c;
     margin-bottom: 15px;
 } 
@@ -191,6 +216,10 @@ color: #8d77ad;
 
 
 } 
+.contactus .forum {
+  background-color: #563d7c;
+  padding-bottom: 15px;
+}
 .contactus .forum h4
 {
     color: rgba(255, 255, 255, 0.849);
