@@ -352,3 +352,58 @@ color: #8d77ad;
 
 
 /*credits*/
+/*footer*/
+.footer
+{
+    padding-top: 20px;
+padding-bottom: 20px;
+background-color: rgba(255, 255, 255, 0.849);
+}
+.footer h5
+{
+    letter-spacing: 1px;
+    color: #787279;
+}
+.footer ul li 
+{
+    margin-bottom: 5px;
+    border-bottom: 1px solid #787279;
+    padding-bottom: 2px;
+
+}
+.footer ul li a 
+{
+    color: #787279;
+}
+.footer ul li a i
+{
+    font-size: small;
+    position: relative;
+    top: 1px;
+}
+
+/*footer*/
+/*license*/
+.license 
+{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: #303030;
+}
+.license a span:first-child
+{
+    color: #ffffff;
+    font-size: 20px;
+    background-color: #563d7c;
+    border-radius: 50%;
+    padding: 10px 10px 10px 10px;
+}
+.license a span:last-child
+{
+    color: #563d7c;
+    font-size: 20px;
+}
+.license p
+{
+    color: rgba(255, 255, 255, 0.849);
+}
